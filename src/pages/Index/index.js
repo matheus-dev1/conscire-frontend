@@ -14,7 +14,7 @@ function Index() {
         <>
         <Header />
         <section>
-              <img src={Gif}/>
+              <img className="img-fluid" src={Gif}/>
         </section>
     <section id="about" class="aboutBackgourd py-5">
       <div class="row align-items-center container my-5 mx-auto foo">
