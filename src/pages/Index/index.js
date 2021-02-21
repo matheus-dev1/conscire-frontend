@@ -4,6 +4,7 @@ import React from 'react'
 
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import Gif from '../../assets/images/gifatualizado.gif'
 import { Link } from 'react-router-dom'
 
 import './styles.css'
@@ -12,10 +13,9 @@ function Index() {
     return (
         <>
         <Header />
-        <section id="img">
-          <div class="mid">
-              <img class="img-fluid" src={require('../../assets/images/consciencia.png').default}/>
-          </div>
+        <section>
+              <img src={Gif}/>
+ 
         </section>
     <section id="about" class="aboutBackgourd py-5">
       <div class="row align-items-center container my-5 mx-auto foo">
