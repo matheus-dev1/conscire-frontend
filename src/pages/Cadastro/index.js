@@ -14,7 +14,7 @@ function Cadastro() {
     const [statusErro, setStatusErro] = useState(false);
     const v = []
     const cadastrar = ()=>{
-        Axios.post("http://mysql-20992-0.cloudclusters.net/register", {
+        Axios.post("https://conscire-api.herokuapp.com/register", {
             nome: nome,
             email: email,
             senha: senha,
@@ -53,7 +53,7 @@ function Cadastro() {
                     </div>
                     <div className="col-lg-7 px-5 pt-5">
                     <img id="logo" src={require('../../assets/images/logo.png').default} alt="Conscire"/>
-                    <h5 className= "my-3 p-2">Entre na sua conta</h5>      
+                    <h5 className= "my-3 p-2">Cadastre-se</h5>      
                 
                     <div >
                         <div className="form-row">
