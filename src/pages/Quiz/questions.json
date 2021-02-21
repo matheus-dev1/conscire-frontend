@@ -1,0 +1,50 @@
+[
+    {
+        "type":"TRUE_FALSE",
+        "level":1,
+        "question":"Sob os efeitos do álcool os jovens ficam mais propensos a quais tipos de comportamentos?",
+        "answers":
+            ["Brigas e sexo desprotegido.", "Alegria e felicidade.", "Não altera o comportamento."],
+            "correct": 1,
+            "explanation":"Os adolescentes vivenciam intensas mudanças físicas, psicológicas e sociais, passando por uma fase que associa-se não apenas à experimentação de álcool, mas ao beber “perigosamente”. Dentre os diversos fatores, podemos citar6: Comportamento de assumir riscos e testar limites: a tendência de procurar situações novas e potencialmente perigosas, em geral de forma impulsiva, típica dos adolescentes, pode incluir experiências com álcool; Expectativas: a forma como veem o álcool e seus efeitos influencia o comportamento de beber. Adolescentes que bebem para ter uma experiência positiva/agradável (por exemplo, ficar mais comunicativo, ter mais sucesso na busca de parceiros, divertir-se mais) são mais propensos ao consumo; Traços da personalidade ou transtornos psiquiátricos: algumas características podem torná-los mais propensos à começar a beber, como agressividade, rebeldia, dificuldade em seguir regras, problemas de conduta, hiperatividade, ansiedade ou depressão; Fatores hereditários: o risco de desenvolver problemas com o álcool é diretamente influenciado pela genética; Aceitação por amigos e pelo grupo: fazem parte dos fatores ambientais que podem influenciar no desenvolvimento do hábito de beber, assim como a referência de pais e familiares."},
+            {
+            "type":"TRUE_FALSE",
+            "level":3,
+            "question":"Quais dessas são consequências ao corpo humano devido ao uso abusivo do álcool?",
+            "answers":["Enfraquecimento significativo das defesas do corpo contra infecções.","Problemas articulares.", "Aumento do colesterol."],
+            "correct":1,
+            "explanation":"Os efeitos imediatos da ingestão excessiva de álcool incluem fala arrastada, comprometimento motor, perda dos reflexos e confusão, chegando a provocar vômito e até levar ao coma. Já a longo prazo, pode elevar o risco de várias complicações de saúde."
+            },
+            {
+            "type":"TRUE_FALSE",
+            "level":1,
+            "question":"Em média quantas mortes no mundo acontecem por ano devido ao uso nocivo do álcool?",
+            "answers":["100 mil mortes.","500 mil mortes.", "3 milhões de mortes."],
+            "correct":3,
+            "explanation":"O uso nocivo do álcool é um dos fatores de risco de maior impacto para a morbidade, mortalidade e incapacidades em todo o mundo, relacionado a 3 milhões de mortes, o equivalente a quase 5,3% de todas as mortes no mundo."
+            },
+            {
+            "type":"TRUE_FALSE",
+            "level":3,
+            "question":"Quais destas doenças podem ser causadas pelo álcool?",
+            "answers":["Dengue","Cirrose", "Reumatismo"],
+            "correct":2,
+            "explanation":"Cirrose alcoólica: É uma forma avançada de doença hepática decorrente de um dano progressivo das células hepáticas. A cirrose costuma ser diagnosticada em 15 a 30 % dos usuários crônicos e abusivos do álcool."
+            },
+            {
+            "type":"TRUE_FALSE",
+            "level":3,
+            "question":"Qual tipo de violência aumentou durante a pandemia de Covid-19 e está ligada ao consumo de álcool?",
+            "answers":["Violência contra animais.","Violência doméstica.", "Violência contra moradores de rua."],
+            "correct":2,
+            "explanation":"A ONU alerta que, conforme a pandemia se espalha, menor será a quantidade de informação e dados disponíveis, e tanto maior será a vulnerabilidade das mulheres e crianças, dado que os sistemas de saúde dos países tenderão a estar cada vez mais lotados."
+            },
+            {
+            "type":"TRUE_FALSE",
+            "level":1,
+            "question":"O BPE consiste no consumo de grande quantidade de álcool em um curto espaço de tempo, que é mais comum entre os jovens e está associado a riscos como acidentes e violência, o que significa esta sigla?",
+            "answers":["Beber Pesado Episódico","Beber Para Esquecer", "Bebendo Por Episódio"],
+            "correct":1,
+            "explanation":"O Beber Pesado Episódico (BPE) é definido pela OMS como o consumo de 60 g ou mais de álcool puro (cerca de 4 doses ou mais no Brasil) em pelo menos uma ocasião, no último mês. Esse comportamento está relacionado a maior risco de prejuízos imediatos, como amnésia alcoólica, quedas, envolvimento em brigas, acidentes de trânsito, sexo desprotegido e intoxicação alcoólica."
+    }
+]

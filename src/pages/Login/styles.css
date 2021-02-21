@@ -1,0 +1,35 @@
+.roww{
+    background:#fff;
+    border-radius: 30px;
+}
+
+.form .row .col-lg-5 img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.btn1{
+    border:none;
+    outline:none;
+    height: 50px;
+    width: 100%;
+    background-color: #FF0C42;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+
+.btn1:hover{
+    background:#F2A007;
+    border: 1px solid;
+    color: white;
+}
+
+#logo {
+    width: 300px;
+}
+
+h5{
+    color:#FF0C42;
+}
