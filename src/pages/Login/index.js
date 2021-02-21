@@ -18,7 +18,7 @@ function Login() {
     const [loginStatus, setLoginStatus] = useState(false);
     const [statusErro, setStatusErro] = useState(false);
 
-    Axios.defaults.withCredentials = true;
+    // Axios.defaults.withCredentials = true;
 
     const login = ()=>{
         Axios.post("https://conscire-api.herokuapp.com/login", {
