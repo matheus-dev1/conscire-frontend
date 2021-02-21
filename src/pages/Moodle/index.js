@@ -54,7 +54,7 @@ const[nome, Setnome] = useState('');
         if(token !== null && email !== null){
             localStorage.removeItem('token')
             localStorage.removeItem('email')
-            window.location.assign("http://localhost:3000/")
+            window.location.assign("https://conscire-front.herokuapp.com/")
         }
     }
 

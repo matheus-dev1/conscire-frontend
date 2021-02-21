@@ -21,7 +21,7 @@ function Login() {
     Axios.defaults.withCredentials = true;
 
     const login = ()=>{
-        Axios.post("http://localhost:5000/login", {
+        Axios.post("https://conscire-api.herokuapp.com/login", {
             email: email,
             senha: senha
         }).then((response) => {
@@ -79,7 +79,7 @@ function Login() {
                     </div>
                     }
                     {
-                        loginStatus && window.location.assign("http://localhost:3000/moodle")
+                        loginStatus && window.location.assign("https://conscire-front.herokuapp.com/moodle")
                     }
                     <p>Não possui uma conta?<br/> <Link to="/cadastro">Registre-se aqui</Link></p>
                     <p><Link to="/">Voltar para Conscire</Link></p>

@@ -34,7 +34,7 @@ function Audit() {
      }
 
     const registeraudit = ()=>{
-        Axios.put("http://localhost:5000/audit/atualiza", {
+        Axios.put("https://conscire-api.herokuapp.com/audit/atualiza", {
         q1: q1State,
 	    q2: q2State,
 	    q3: q3State,
@@ -155,7 +155,7 @@ function Audit() {
                 </p>
                 <p>&nbsp;</p>
             </div>
-            {auth && window.location.assign("http://localhost:3000/resultadoAudit")}
+            {auth && window.location.assign("https://conscire-front.herokuapp.com/resultadoAudit")}
             <Footer />
         </>
     )

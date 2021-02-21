@@ -15,14 +15,14 @@ function Contato() {
     const v =[]
     useEffect(() => {
       async function fetchData(){
-          const url =  "http://localhost:5000/comentarios/retorna"; 
+          const url = "https://conscire-api.herokuapp.com/comentarios/retorna"; 
           const response = await fetch(url);
           setMensagens(await response.json());
       }fetchData();    
     }, [render]);
 
     const mensagem = ()=>{
-        Axios.post("http://localhost:5000/comentarios/envia", {
+        Axios.post("https://conscire-api.herokuapp.com/comentarios/envia", {
             nome: nome,
             sobrenome: sobrenome,
             msg: msg
