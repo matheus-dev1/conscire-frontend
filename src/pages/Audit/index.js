@@ -9,7 +9,7 @@ import Footer from '../../components/Footer'
 import './styles.css'
 
 function Audit() {
-    // Axios.defaults.withCredentials = true;    
+    Axios.defaults.withCredentials = true;    
     const [q1State, setQ1] = useState(0);
     const [q2State, setQ2] = useState(0);
     const [q3State, setQ3] = useState(0);
