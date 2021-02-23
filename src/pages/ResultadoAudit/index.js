@@ -11,7 +11,7 @@ import './styles.css'
 function ResultadoAudit() {
     const [result, setResult] = useState([]);
     const [statusResult, setStatusResult] = useState(false);
-    // Axios.defaults.withCredentials = true;
+    Axios.defaults.withCredentials = true;
    
     window.onload = ()=>{
         const emailsession = localStorage.getItem('email')
