@@ -19,7 +19,7 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto">                  
                     <li className="nav-item">
-                        <a className="nav-link" href="/#about">Sobre 11</a>
+                        <a className="nav-link" href="/#about">Sobre</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="/#projeto">Nosso Projeto</a>
