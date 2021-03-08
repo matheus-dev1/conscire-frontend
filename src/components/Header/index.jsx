@@ -33,6 +33,9 @@ function Header() {
                     <li className="nav-item">
                         <Link className="nav-link" to="/cadastro">Cadastre-se</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/monitoramento">Monitoramento</Link>
+                    </li>
                     </ul>
                         <button className="btn btn-warning text-white btn-lg" type="submit">
                             <Link className="text-light" to="/login">Login</Link>
