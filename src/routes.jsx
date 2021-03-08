@@ -47,11 +47,11 @@ function Routes(){
                 {/* Ok */}
                 <Route exact path="/login" component={Login} />
                 {/* Ok */}
-                <Route exact path="/monitoramento" component={Monitoramento} />
-                {/* Ok */}
+            
                 <PrivateRoute exact path="/moodle" component={Moodle} />
                 <PrivateRoute exact path="/resultadoAudit" component={resultadoAudit} />
                 <PrivateRoute exact path="/quiz" component={Quiz} />
+                <PrivateRoute exact path="/monitoramento" component={Monitoramento} />
             </Switch>
         </BrowserRouter>
     );
