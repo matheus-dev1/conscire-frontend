@@ -136,15 +136,15 @@ function Audit() {
                 <div className="form-check texto-m">
                     <p className="texto-m">9 – Você ou outra pessoa já se machucou devido a alguma bebedeira sua?</p>
                     <input type="radio" name="q9" value="0" required onChange={(e) =>{setQ9(0);}}/>Nunca. <br/>
-                    <input type="radio" name="q9" value="2" required onChange={(e) =>{setQ9(1);}}/>Sim, mas não nos últimos 12 meses. <br/>
-                    <input type="radio" name="q9" value="4" required onChange={(e) =>{setQ9(2);}}/>Sim, nos últimos 12 meses. <br/><br/>
+                    <input type="radio" name="q9" value="2" required onChange={(e) =>{setQ9(2);}}/>Sim, mas não nos últimos 12 meses. <br/>
+                    <input type="radio" name="q9" value="4" required onChange={(e) =>{setQ9(4);}}/>Sim, nos últimos 12 meses. <br/><br/>
                 </div>
                 
                 <div className="form-check texto-m">
                     <p className="texto-m">10 – Algum parente, amigo, médico ou outro profissional de saúde mostrou-se preocupado com seu modo de beber ou sugeriu que você diminuísse a quantidade?</p>
                         <input type="radio" name="q10" value="0" required onChange={(e) =>{setQ10(0);}}/>Nunca. <br/>
-                        <input type="radio" name="q10" value="2" required onChange={(e) =>{setQ10(1);}}/>Sim, mas não nos últimos 12 meses. <br/>
-                        <input type="radio" name="q10" value="4" required onChange={(e) =>{setQ10(2);}}/>Sim, nos últimos 12 meses. <br/><br/>
+                        <input type="radio" name="q10" value="2" required onChange={(e) =>{setQ10(2);}}/>Sim, mas não nos últimos 12 meses. <br/>
+                        <input type="radio" name="q10" value="4" required onChange={(e) =>{setQ10(4);}}/>Sim, nos últimos 12 meses. <br/><br/>
                 </div> 
             </div>
                 <p align="center"> 
