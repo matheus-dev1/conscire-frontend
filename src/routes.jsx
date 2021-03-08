@@ -9,6 +9,7 @@ import Login from './pages/Login';
 import Moodle from './pages/Moodle';
 import Quiz from './pages/Quiz';
 import resultadoAudit from './pages/ResultadoAudit';
+import Monitoramento from './pages/Monitoramento';
 
  const isAuthenticated = () =>  {
     if (localStorage.getItem('token')) {
@@ -45,6 +46,8 @@ function Routes(){
                 <Route exact path="/contato" component={Contato} />
                 {/* Ok */}
                 <Route exact path="/login" component={Login} />
+                {/* Ok */}
+                <Route exact path="/monitoramento" component={Monitoramento} />
                 {/* Ok */}
                 <PrivateRoute exact path="/moodle" component={Moodle} />
                 <PrivateRoute exact path="/resultadoAudit" component={resultadoAudit} />
