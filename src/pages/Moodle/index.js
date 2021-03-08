@@ -111,6 +111,11 @@ const[nome, Setnome] = useState('');
                             <i className='bx bx-trophy nav__icon' ></i>
                             <span className="nav__name">Resultado Audit</span>
                         </Link>
+	    
+	    		<Link to="/monitoramento" className="nav__link">
+                            <i className='bx bx-check nav__icon' ></i>
+                            <span className="nav__name">Monitoramento</span>
+                        </Link>
 
                     </div>
                 </div>
