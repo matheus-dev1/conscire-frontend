@@ -19,8 +19,8 @@ function ResultadoAudit() {
         Axios.post("https://conscire-api.herokuapp.com/audit/retorna",{
             email: emailsession,
         }).then((Response)=> {
-            console.log(Response.data)
-            setResult(Response.data)
+            console.log(Response.data.message)
+            setResult(Response.data.message)
             setStatusResult(true)
         })
      }
