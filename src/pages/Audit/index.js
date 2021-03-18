@@ -20,11 +20,11 @@ function Audit() {
     const [q8State, setQ8] = useState(0);
     const [q9State, setQ9] = useState(0);
     const [q10State, setQ10] = useState(0);
-    const [email, SetEmail] = useState('');
+    // const [email, SetEmail] = useState('');
+    const [email, SetEmail] = useState(localStorage.getItem('email'))
     const [auth, setAuth] = useState(false)
 
     window.onload = ()=>{
-        const [email, SetEmail] = useState(localStorage.getItem('email'))
         if(email != null){
             SetEmail(email)
         }
