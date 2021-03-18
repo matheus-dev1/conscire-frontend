@@ -24,7 +24,7 @@ function Audit() {
     const [auth, setAuth] = useState(false)
 
     window.onload = ()=>{
-        const email = localStorage.getItem('email')
+        const [email, SetEmail] = useState(localStorage.getItem('email'))
         if(email != null){
             SetEmail(email)
         }
